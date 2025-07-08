@@ -1,0 +1,9 @@
+@OTP_Verification_Project_HostAddress = http://localhost:5165
+
+POST {{OTP_Verification_Project_HostAddress}}/api/otp/register
+Contect-Type: application/json
+{
+    "email":"ashehryar439@gmail.com"
+}
+
+###
